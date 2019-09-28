@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Mapping
--- Copyright   :  (c) 2019 Tiago de Paula, João Pedro de Amorim
+-- Copyright   :  (c) 2019 Tiago de Paula & João Pedro de Amorim
 -- License     :  MIT
 --
 -- Definição e operações de mapeamento.

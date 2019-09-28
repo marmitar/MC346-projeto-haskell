@@ -1,5 +1,5 @@
 name:                MC346-projeto
-version:             0.2.0.0
+version:             0.2.1.0
 github:              "TiagodePAlves/MC346-projeto-haskell"
 license:             MIT
 author:              "Tiago de Paula, João Pedro de Amorim"
@@ -15,7 +15,35 @@ description:
 
 dependencies:
 - base >= 4.7 && < 5
+- containers >= 0.5 && < 0.7
+- unordered-containers >= 0.2 && < 0.3
+- hashable >= 1.1 && < 1.4
+- data-default >= 0.6 && < 0.8
 
 library:
     source-dirs:
     - lib
+
+executables:
+    Main:
+        main:                Main.hs
+        source-dirs:
+        - app
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -with-rtsopts=-N
+        dependencies:
+        - MC346-projeto
+
+tests:
+    Test:
+        main:                Spec.hs
+        source-dirs:
+        - test
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -with-rtsopts=-N
+        dependencies:
+        - MC346-projeto
