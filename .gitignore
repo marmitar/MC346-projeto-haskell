@@ -1,6 +1,5 @@
 .old/
 .vscode/
-.stack-work/
+gen/
 *.cabal
 *.yaml.lock
-*~

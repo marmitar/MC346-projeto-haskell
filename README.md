@@ -2,8 +2,8 @@
 
 ## Alunos
 
-- [Tiago de Paula Alves](mailto:tiagodepalves@gmail.com) (187679)
-- João Pedro de Amorim (176131)
+- [Tiago de Paula Alves](mailto:t187679@dac.unicamp.br) (187679)
+- [João Pedro de Amorim](mailto:j176131@dac.unicamp.br) (176131)
 
 ## Enunciado do Projeto
 
@@ -50,7 +50,7 @@ O programa devera imprimir o label e o nome dos pontos em cada grupo - um grupo 
 
 indica os 3 grupos (a ordem que os grupos são impressos não é importante). A saída pode ser também no formato
 
-```raw
+```haskell
 (1, ["aa", "b3", "g78", "g79", "g80"])
 (2, ["ez34", "f45", "zz9"])
 (3, ["a47", "gg7"])
@@ -59,7 +59,7 @@ indica os 3 grupos (a ordem que os grupos são impressos não é importante). A 
 O seu programa rodará como:
 
 ```bash
-    runhaskell projeto2.hs < dados.txt
+runhaskell projeto2.hs < dados.txt
 ```
 
 ou seja os dados devem ser lidos do standard input.

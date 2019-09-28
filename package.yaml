@@ -1,5 +1,5 @@
 name:                MC346-projeto
-version:             0.1.0.0
+version:             0.2.0.0
 github:              "TiagodePAlves/MC346-projeto-haskell"
 license:             MIT
 author:              "Tiago de Paula, João Pedro de Amorim"
@@ -9,10 +9,13 @@ copyright:           "2019 Tiago de Paula, João Pedro de Amorim"
 extra-source-files:
 - README.md
 
-# To avoid duplicated efforts in documentation and dealing with the
-# complications of embedding Haddock markup inside cabal files, it is
-# common to point users to the README.md file.
-description:         README <https://github.com/TiagodePAlves/MC346-projeto-haskell#readme>
+description:
+    Projeto de Haskell - Paradigmas de Programação [MC346].
+    Mais detalhes no README <https://github.com/TiagodePAlves/MC346-projeto-haskell#readme>
 
 dependencies:
 - base >= 4.7 && < 5
+
+library:
+    source-dirs:
+    - lib
