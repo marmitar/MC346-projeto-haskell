@@ -1,10 +1,10 @@
 name:                MC346-projeto
-version:             0.3.0.0
+version:             0.3.1.0
 github:              "TiagodePAlves/MC346-projeto-haskell"
 license:             MIT
 author:              "Tiago de Paula, João Pedro de Amorim"
 maintainer:          "tiagodepalves@gmail.com, joaopedrodeamorin@gmail.com"
-copyright:           "2019 Tiago de Paula, João Pedro de Amorim"
+copyright:           "2019 Tiago de Paula & João Pedro de Amorim"
 
 extra-source-files:
 - README.md
